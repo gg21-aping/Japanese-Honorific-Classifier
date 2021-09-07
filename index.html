@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Japanese Honorific Classifier</title>
+    </head>
+
+    <body>
+        <h1><b>Japanese Honorific Classifier</b></h1>
+        <hr>
+        <h2>Check whether your sentence is formal (尊敬語、謙讓語), polite (丁寧語), or informal.</h2>
+        <h4>
+        <form action="{{url_for('predict')}}" method="POST">
+            <!-- <p>Your sentence: <input type:'text' name:'sentence' placeholder='Enter your sentence' required='required' /></p> -->
+            <textarea name="sentence" placeholder='Enter your sentence' rows="2" cols="50"></textarea>
+            <!-- <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button> -->
+            <input type="submit" class="btn-info" value="predict">
+        </form>
+        </h4>
+        <hr>
+        <h2><b>{{ prediction_text }}</b></h2>
+    </body>
+
+</html>
