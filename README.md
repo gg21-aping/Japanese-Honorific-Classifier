@@ -24,4 +24,7 @@ Japanese is not like English, that words can be tokenized easily. I applied Nagi
 ### Machine Learning Models
 It would be nice if I could build up a neural network to improve its performance, but with only 200 data, it wouldn't really work. Therefore, I decided to only implement several machine learning models, such as logistic regression, naive bayes, SGD classifier, and support vector machine (SVM). And the performance is as follows:
 ![image](https://user-images.githubusercontent.com/71431125/132280727-25204d33-4d9b-45a7-b882-02d76af5e40b.png)
+Below is the classification report of the SVM model:
+![image](https://user-images.githubusercontent.com/71431125/132281586-b5b94eeb-4e26-4570-8ced-6a1fb5502c83.png)
+
 
