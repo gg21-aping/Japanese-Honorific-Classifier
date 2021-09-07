@@ -11,7 +11,7 @@ called proper Japanese, but they are asked to be used only under certain conditi
 
 This classifier is going to classify whether a sentence is informal, polite (丁寧語), or formal (尊敬語、謙讓語、美化語). As shown in the image, users can type in a sentence and press the "predict" botton to check the form of the sentence.  
 
-![image](https://user-images.githubusercontent.com/71431125/132279071-cec6715a-7d23-4d05-bc56-239eeefeddcb.png)
+![image](https://user-images.githubusercontent.com/71431125/132281410-eb2f534b-6850-4139-90ed-050535f94c0e.png)
 
 ## Data Collection
 Since it is a classification task, I tried to find sentences related to its Keigo labels in the internet, but I couldn't find any. 
